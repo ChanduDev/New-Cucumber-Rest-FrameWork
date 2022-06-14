@@ -1,0 +1,55 @@
+Request method:	POST
+Request URI:	https://api.thecatapi.com/v1/votes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=DEMO-API-KEY
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "image_id": "743u",
+    "sub_id": "test",
+    "value": 1
+}
+HTTP/1.1 200 OK
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+vary: Origin
+content-type: application/json; charset=utf-8
+x-response-time: 212ms
+X-Cloud-Trace-Context: 2c5e6d548df96206564b8ffd5c02cb80
+Date: Tue, 14 Jun 2022 18:39:32 GMT
+Server: Google Frontend
+Content-Length: 33
+
+{
+    "message": "SUCCESS",
+    "id": 545435
+}
+Request method:	DELETE
+Request URI:	https://api.thecatapi.com/v1/votes/%7Bid%7D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=DEMO-API-KEY
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "image_id": "743u",
+    "sub_id": "test",
+    "value": 1
+}
